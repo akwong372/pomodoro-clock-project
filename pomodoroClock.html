@@ -1,0 +1,68 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="pomodoroClock.css">
+    <script type="text/javascript" src="PomodoroClock.js"></script>
+</head>
+
+
+<h1 class="text-center">Pomodoro Timer</h1>
+  
+<h2 class="text-center">Maybe?</h2>
+<br>
+
+
+<!--timer titles-->
+<div style="clear: both" class="text-center container-fluid timers">
+<h3 style="float: left" id="workTimeTitle">
+  Work Timer
+</h3>
+
+<h3 style="float: right" id="breakTimeTitle">
+  Break Timer
+</h3>
+</div>
+<hr />
+
+
+<!--timer numbers-->
+<div style="clear: both" class="text-center container-fluid timers">
+<h3 style="float: left" id="workTimeMin">25</h3>
+<h3 style="float: left" id="workTimeDivider">:</h3>
+<h3 style="float: left" id="workTimeSec">00</h3>
+
+<h3 style="float: right" id="breakTimeSec">00</h3>
+<h3 style="float: right" id="breakTimeDivider">:</h3>
+<h3 style="float: right" id="breakTimeMin">5</h3>
+  <br>
+  <br>
+  
+  <!--add and subtract minutes-->
+  <div style="float: left" class="btn-group btn-group-sm">
+<button id="workTimeAdd" class="btn btn-info ">+</button>
+<button id="workTimeSub" class="btn btn-info ">-</button>
+  </div>
+  
+  <div style="float: right" class="btn-group btn-group-sm">
+<button id="breakTimeAdd" class="btn btn-info ">+</button>
+<button id="breakTimeSub" class="btn btn-info ">-</button>
+  </div>
+  
+</div>
+<br>
+<hr />
+
+
+
+<!--start timer button-->
+<div style="clear: both" class="text-center container-fluid timers">
+<button id="workTimeStart" class="btn btn-info col-md-12">Start</button>
+  
+</div>
+<hr />
+
+
+<!--reset timer button-->
+<div style="clear: both" class="text-center container-fluid timers">
+<button id="workTimeReset" class="btn btn-warning col-md-12">Reset</button>
+
+</div>
+<hr />
